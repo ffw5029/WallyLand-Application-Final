@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="621.0" prefWidth="698.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="demo.BlackWidowCoasterController">
+   <children>
+      <Text fill="#ee4e4e" layoutX="132.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Black Widow Roller Coaster Information:">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Button fx:id="rideMenuBack" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Back" />
+      <Label layoutX="23.0" layoutY="485.0" text="Current Line Max Capacity:" />
+      <Label layoutX="170.0" layoutY="485.0" text="120">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="200.0" fitWidth="273.0" layoutX="213.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Black%20Widow2.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="23.0" layoutY="534.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Roller Coaster Seat Capacity:" />
+      <Label layoutX="184.0" layoutY="521.0" text="40">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Text fill="#c93030" layoutX="163.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Black Widow will stand at 90 feet tall and will reach a height of 146 feet in full swing with an angle of 120 degrees from the center. The pendulum motion propels riders back and forth at 68 miles per hour." textAlignment="CENTER" wrappingWidth="372.140625">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Label layoutX="23.0" layoutY="449.0" text="Current People Waiting:" />
+      <Label layoutX="163.0" layoutY="449.0" text="60">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
